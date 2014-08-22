@@ -1,0 +1,45 @@
+##TITLE=Parameter List
+##JCAMPDX=4.24
+##DATATYPE=Parameter Values
+##ORIGIN=Bruker BioSpin MRI GmbH
+##OWNER=foniok
+$$ Tue Jun 12 09:29:34 2012 MDT (UT-6h)  foniok
+$$ /opt/PV5.1/data/foniok/nmr/Shrive-test-08.er1/subject
+##$SUBJECT_version_nr=2
+##$SUBJECT_id=( 60 )
+<Shrive-test-08>
+##$SUBJECT_patient_instance_uid=( 65 )
+<2.16.756.5.5.100.3765934114.28052.1339514965.3822>
+##$SUBJECT_name_string=( 64 )
+<Shrive-test-08>
+$$ @vis= SUBJECT_version_nr SUBJECT_id SUBJECT_patient_instance_uid
+##$SUBJECT_name=(<>, <Shrive-test-08>)
+##$SUBJECT_dbirth=( 12 )
+<>
+##$SUBJECT_type=Human
+##$SUBJECT_sex=( 8 )
+<female>
+$$ @vis= SUBJECT_name_string SUBJECT_name SUBJECT_dbirth SUBJECT_type
+##$SUBJECT_sex_human=Female
+##$SUBJECT_study_name=( 64 )
+<Shrive-test-08>
+##$SUBJECT_study_nr=1
+##$SUBJECT_study_instance_uid=( 65 )
+<2.16.756.5.5.100.3765934114.28052.1339514965.3823>
+$$ @vis= SUBJECT_sex SUBJECT_sex_human SUBJECT_study_name SUBJECT_study_nr
+##$SUBJECT_size=0.001
+##$SUBJECT_weight=5
+##$SUBJECT_pos_valid=Yes
+$$ @vis= SUBJECT_study_instance_uid SUBJECT_size SUBJECT_weight
+##$SUBJECT_location=( 64 )
+<Shrive>
+##$SUBJECT_entry=SUBJ_ENTRY_HeadFirst
+##$SUBJECT_position=SUBJ_POS_Supine
+##$SUBJECT_date=( 21 )
+<09:29:25 12 Jun 2012>
+$$ @vis= SUBJECT_pos_valid SUBJECT_location SUBJECT_entry SUBJECT_position
+##$SUBJECT_abs_date=1339514965
+##$SUBJECT_study_coil_config_file=( 512 )
+<Default_QuadTransceiver_1H_1000W>
+$$ @vis= SUBJECT_date SUBJECT_abs_date SUBJECT
+##END=

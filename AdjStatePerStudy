@@ -1,0 +1,36 @@
+##TITLE=Parameter List
+##JCAMPDX=4.24
+##DATATYPE=Parameter Values
+##ORIGIN=Bruker BioSpin MRI GmbH
+##OWNER=foniok
+$$ Tue Jun 12 12:06:13 2012 MDT (UT-6h)  foniok
+$$ /opt/PV5.1/data/foniok/nmr/Shrive-test-08.er1/AdjStatePerStudy
+##$AdjStudyStateCompleted=Yes
+##$AdjStudyStateResetNdx=0
+##$AdjStudyStateAdjName=( 4, 128 )
+<FREQ_Standard> <SHIM_Standard> <TRANSM_Standard> <FREQ_Standard>
+##$AdjStudyStateCategory=( 4 )
+FREQ SHIM TRANSM FREQ
+##$AdjStudyStateAdjustPars=( 4, 1024 )
+<ACQ_BF> <PVM_StudyShim> <PVM_StudyRefAtt> <ACQ_BF>
+##$AdjStudyStateTime=( 4, 21 )
+<09:38:41 12 Jun 2012> <09:38:54 12 Jun 2012> <09:39:24 12 Jun 2012> <
+09:51:09 12 Jun 2012>
+##$AdjStudyStateExpno=( 4 )
+4 4 4 6
+##$AdjStudyStateState=( 4 )
+adj_successful adj_successful adj_successful adj_successful
+##$AdjStudyStateResultId=( 4, 65 )
+<> <2.16.756.5.5.100.3765934114.9918.1339515521.107> <
+2.16.756.5.5.100.3765934114.9918.1339515521.108> <>
+##$AdjStudyStateMethod=( 4, 128 )
+<AdjSf> <AdjShim> <AdjRefG> <AdjSf>
+##$AdjStudyStateMethodContext=( 4, 128 )
+<> <> <> <>
+##$AdjStudyStateHwChainNdxs=( 4 )
+(0, 0) (0, 1) (1, 1) (2, 0)
+##$AdjStudyStateHwChains=( 2 )
+((SHIM_CHAIN, -1), <SHIM_BGA12S.479412>) ((TRANS_CHAIN, -2), <
+Default_QuadTransceiver_1H_1000W -2 2 2 2 1 1 1H  1165295583>)
+##$AdjStudyListConfigTime=1190094339
+##END=
